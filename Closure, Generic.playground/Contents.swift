@@ -72,6 +72,7 @@ closure2()
 
 
 // 이스케이핑 예시
+// someEscaping 함수에서는 클로저가 실행되지 않는다.
 var someClosures: [() -> Void] = []
 
 
